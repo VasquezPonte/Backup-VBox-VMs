@@ -44,7 +44,7 @@ if (defined $ARGV[0]) {
 if ($help) {
         print "\n".
         'Usage: perl backup-vbox-vms.pl [option]'. "\n\n".
-        'where options include:'. "\n".
+        'where option include:'. "\n".
         "\t". '-f -force'. "\t\t". 'shut down VMs before copying files'. "\n".
         "\t". '-? -help'. "\t\t". 'print this help message'. "\n".
         "\n";
@@ -151,7 +151,7 @@ sub parse_vminfo {
 }
 
 #
-# sub writable_backup_folder ( string )
+# sub check_backup_folder ( string )
 #
 sub check_backup_folder {
 	use File::Temp qw/ tempfile tempdir /;
