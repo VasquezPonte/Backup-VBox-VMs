@@ -4,7 +4,7 @@
 # Description:  Script for backing up VirtualBox VMs from host file system      #
 # Version:      1.0                                                             #
 # File:         backup-vbox-vms.pl                                              #
-# Author:       Vásquez Ponte, 2017 (https://vasquezponte.com/contact)          #
+# Author:       Vásquez Ponte, 2017 (https://vasquezponte.com/)                 #
 #============================================================================== #
 
 use strict;
